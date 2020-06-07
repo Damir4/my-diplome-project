@@ -10,6 +10,7 @@ const morgan = require('morgan')
 const cors = require('cors')
 const passport = require('passport')
 const userRout = require('./routes/user')
+const path = require('path')
 
 app.get('/',(req,res)=>{
     res.write('Hellou World')
